@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/actBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/jargons"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/gold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/jargon_intro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/text"
+            android:gravity="center"/>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/admin_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/admin_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/acads_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/acads_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/ansci_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/ansci_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/audi_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/audi_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/barbarian_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/barbarian_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/biosci_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/biosci_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/bloc_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/bloc_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/bluebook_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/bluebook_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/brod_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/brod_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/carillon_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/carillon_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/cem_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/cem_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/csb_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/csb_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/coop_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/coop_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/copeland_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/copeland_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/cpark_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/cpark_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/cs_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/cs_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/engineering_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/engineering_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/faculty_village_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/faculty_village_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/fertility_tree_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/fertility_tree_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/freedom_park_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/freedom_park_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/forestry_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/forestry_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/form5_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/form5_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/fratman_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/fratman_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/ge_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/ge_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/gc_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/gc_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/grandstand_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/grandstand_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/grove_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/grove_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/hum_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/hum_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/hr_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/hr_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/infirmary_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/infirmary_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/killer_crossover_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/killer_crossover_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/kwek_tower_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/kwek_tower_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/mainlib_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/mainlib_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/mens_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/mens_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/proven_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/proven_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/raymundo_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/raymundo_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/womens_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/womens_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/us_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/us_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/uno_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/uno_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/tres_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/tres_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/kwatro_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/kwatro_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
+            <TextView
+                android:text="@string/singko_label"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+
+            <TextView
+                android:paddingLeft="5dp"
+                android:text="@string/singko_def"
+                android:textColor="@color/text"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/brought"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/text"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ec_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/frat"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
