@@ -1,25 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FAQ">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/actBg">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="FAQ"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/faq"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/gold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/faq_intro"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/text"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q1" />
+
+        <TextView
+            android:id="@+id/ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans1"/>
+
+        <TextView
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q2" />
+
+        <TextView
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans2"/>
+
+        <TextView
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q3" />
+
+        <TextView
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans3"/>
+
+        <TextView
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q4" />
+
+        <TextView
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans4"/>
+
+        <TextView
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q5" />
+
+        <TextView
+            android:id="@+id/ans5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans5"/>
+
+        <TextView
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q6" />
+
+        <TextView
+            android:id="@+id/ans6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans6"/>
+
+        <TextView
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q7" />
+
+        <TextView
+            android:id="@+id/ans7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans7"/>
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q8" />
+
+        <TextView
+            android:id="@+id/ans8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans8"/>
+
+        <TextView
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q9" />
+
+        <TextView
+            android:id="@+id/ans9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans9"/>
+
+        <TextView
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q10" />
+
+        <TextView
+            android:id="@+id/ans10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans10"/>
+
+        <TextView
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q11" />
+
+        <TextView
+            android:id="@+id/ans11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans11"/>
+
+        <TextView
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q12" />
+
+        <TextView
+            android:id="@+id/ans12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans12"/>
+
+        <TextView
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q13" />
+
+        <TextView
+            android:id="@+id/ans13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans13"/>
+
+        <TextView
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/gold"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:text="@string/q14" />
+
+        <TextView
+            android:id="@+id/ans14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/text"
+            android:visibility="gone"
+            android:text="@string/ans14"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/brought"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/text"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ec_logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/frat"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
