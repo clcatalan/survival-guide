@@ -7,9 +7,12 @@
     <string name="map">Campus Map</string>
     <string name="jargons">Campus Jargons</string>
     <string name="faq">FAQ</string>
+    <string name="faq_intro">\t\tThe UP Epsilon Chi Fraternity has prepared for you the answers to frequently asked questions to guide you in your UPLB journey.</string>
     <string name="tips">Useful tips</string>
+    <string name="tips_intro">\t\tHere are some additional tips and information as you become an Iskolar ng Bayan!</string>
     <string name="logo">SG Logo</string>
     <string name="jargon_intro">\t\tWell here you are in your new environment. Surrounded by unfamiliar faces, doing whatever it is they’re doing, eating God knows what,  an alien culture really, and to top it off, you barely understand half of what these weirdos are talking about. Why don’t you try to learn the vernacular and have a better understanding of your new home?</string>
+
     <string name="admin_label"><b>Admin</b> - </string>
     <string name="admin_def">the Administration building where the College of Agriculture and Food Science, and cashier is located.</string>
     <string name="acads_label"><b>Acads</b> - </string>
@@ -94,4 +97,55 @@
     <string name="kwatro_def">Conditional Pass or Fail. Depends on whether you are an optimist or a pessimist. Talk to your professor if you get this grade.</string>
     <string name="singko_label"><b>Singko</b> - </string>
     <string name="singko_def">The bane of UPLB students. Under any circumstance, do not get this grade. EVER!</string>
+
+    <string name="q1">How do teachers grade their students?</string>
+    <string name="ans1">\t\tThere is only one grading system in UP. The grades that teachers use are 1 (excellent), 1.25, 1.5 (very good), 1.75 (good), 2.0, 2.25 (satisfactory), 2.5, 2.75, 3 (passing), 4 (conditional failure), 5 (failure), and INC (incomplete).\n\t\tTeachers, however, have different ways of coming up with grades for their students; e.g. 50% is 3.0. You will be informed about the grading system to be used at the start of the semester. If your teacher forgets, just ask about it.</string>
+    <string name="q2">What does a grade of 4 or INC mean?</string>
+    <string name="ans2">\t\tA grade of 4.0 means a conditional failure. It usually means that your class performance is just below passing. You need to take a re-examination called a removal exam. After this exam, your 4.0 will change to either a 3.0 or a 5.0. You will take this type of exam on a prescribed schedule during the removal exam period.\n\t\tAn INC means that your status was passing but you were not able to meet all the requirements for the subject. You can change this grade to one that\'s based on your overall performance by completing a requirement or a substitute for it. You have to consult your instructor about this.\n\t\tAn INC/4.0 must be completed within a year. If not, you lose the right to complete/remove it. If not completed/removed, it will change to 5.0 and will have to re-enroll the subject.</string>
+    <string name="q3">What should I do when I get a grade of 5.0?</string>
+    <string name="ans3">\t\tFirst, start thinking of an excuse to tell your parents. Then you take the subject again. As much as possible, aim for a higher grade. A general education course can be retaken or replaced by another subject in the same domain if failed, given that you haven\'t taken the new course yet (e.g. Replacing a failed SCI 10 to SCI 11).</string>
+    <string name="q4">What\'s an elective?</string>
+    <string name="ans4">\t\tYour curriculum contains some subjects that are not directly connected to your course, but are needed to complete a certain number of units. These subjects are called electives. Your choice of elective depends on your inclination or at other times, whether you want to major in a certain field.</string>
+    <string name="q5">What\'s a faculty adviser?</string>
+    <string name="ans5">\t\tA student has an assigned instructor from his/her department (e.g. Institute of Computer Science for Computer Science Students) who makes sure that the student enrolls in the right subject at the right time. Be nice to your faculty adviser.</string>
+    <string name="q6">On which subjects should I pass?</string>
+    <string name="ans6">\t\tWell, ideally, you should aim to pass all of your subjects. But there are certain subjects that you should be extra careful about if you want to graduate on time. These subjects are those that are part of a series. For example, Math X, Math Y, and Math Z can only be taken if you pass Math W. Math W is called a prerequisite. Remember that failure might lessen your chances of graduating on time since you would have to catch up, say, by taking summer classes.\n\t\tYou also need to know that some subjects have more than one prerequisite. For more details, ask your faculty adviser or the good people at your College Secretary\'s Office.</string>
+    <string name="q7">What is LOA? Suspension?</string>
+    <string name="ans7">\t\tLOA stands for Leave of Absence. You write a petition for a LOA to the Dean if you want to temporarily stop your studies for not more than one school year without losing your registration privileges. If you withdraw after 3/4 of the total number of days before the course has elapsed, your teacher might submit a grade of 5.0 if your standing in his/her subject is failing. Otherwise, class standings at the same time of LOA are not entered in the transcript of records. No LOA is granted during the last two weeks of classes.\n\t\tA student who withdraws without a formal leave is considered AWOL (Absence Without Official Leave) and his/her registration privileges are curtailed or entirely withdrawn. This means that he/she may not be able to enroll in UP again.\n\t\tA suspension is a disciplinary punishment meted out by the Student Disciplinary Tribunal (SDT) on an erring student after an investigation and hearing. When a student is suspended, he is not allowed to attend his classes and is not even supposed to be inside UP. Beaches of discipline include, among others, fighting on campus, carrying deadly weapon, and trying to bribe your teacher. The highest penalty given by the SDT is expulsion.</string>
+    <string name="q8">Can I cut classes?</string>
+    <string name="ans8">\t\tYes you can cut classes for whatever purpose deemed necessary. However, the university policy on attendance states that you should at least attend 80% of the total class hours for the whole semester. Moreover, it would be better if you would be prudent in checking your attendance; your teacher might have a different approach in checking attendance; he/she may not be fond of checking attendance but he/she might be fond of giving surprise quizzes (which could also mean attendance).\n\t\tYou should also know that you could leave your classroom if your teacher does not show up in 1/3 of the total time for his/her class. But be sure to take your classmates with you because your teacher might still come to class.</string>
+    <string name="q9">What if I\'m sick?</string>
+    <string name="ans9">\t\tIf you are unable to attend class due to illness, you are considered excused provided that you present a medical certificate to your teacher from your doctor certified by the UP Health Service and your College Secretary. You are also entitled for a free consultation at the UP Health Service.\n\t\tIf you missed an exam due to an illness, explain this to your teacher. He/she would likely give a makeup exam or just ignore that test in computing for your weighted average. He/she could also tell you that UP students do not get sick and give you zero for that exam.</string>
+    <string name="q10">In a semester, can I enroll in more subjects than what is specified in my curriculum so that I could graduate earlier?</string>
+    <string name="ans10">\t\tWell, that is not entirely your choice. Your academic load can be no more than what is prescribed in your curriculum. For the summer term, the maximum is 6 units but the college dean may allow an additional 3 units on justifiable cases (e.g. graduating).\n\t\tGoing beyond the prescribed number of units in a semester is called overloading and going below is underloading. Normally, your faculty adviser will permit you to underload only 2 units less than the prescribed number of units for that semester.</string>
+    <string name="q11">I don\'t like my teacher, can I quit his/her subject?</string>
+    <string name="ans11">\t\tA student can drop a course before 3/4 of the semester has lapsed. And you can only drop a subject with the consent of the instructor and the College Dean. Be sure that you have justifiable reason because you waste people\'s money every time you drop a subject.\n\t\tNo grades will be noted in your transcript of records for a course dropped. Dropping will not affect the computation of your general weighted average.</string>
+    <string name="q12">How do I compute my general weighted average?</string>
+    <string name="ans12">\t\tYou get the sum of the products of your grade for a subject and the subject\'s number of units for all your subjects. Divide this by the total number of units and the quotient will be your present general weighted average.</string>
+    <string name="q13">Does UPLB kick students out?</string>
+    <string name="ans13">\t\tAny student who, at the end of the semester obtains a final grade below 3.0 in at least 75% of the total number of academic units in which he receives final grades shall be dropped from the rolls of the college. Any student on probation who again fails 50% of the total units in his final grade shall be dropped. This status is called double probation.</string>
+    <string name="q14">What should I do if I\'m running for honors?</string>
+    <string name="ans14">\t\tA student who graduates with the following minimum weighted average shall graduate with honors:\n\nSUMMA CUM LAUDE 1.20\n\nMAGNA CUM LAUDE 1.45\n\nCUM LAUDE 1.75</string>
+
+    <string name="tq1">What is SAIS</string>
+    <string name="tqa1">\t\tOnline Enlistment is probably one of the most important and stressful moments UP students face since it kicks off the opening of the semester and by this point I know you have heard a thing or two about the Student Academic Information System or what is commonly known as SAIS. But what truly is SAIS?\n\n\t\tHere are our tips on how to use SAIS:\n\n\t\t<b>Be prepared.</b> Be sure you know what subjects you have to take or what subjects you can take the following semester. If you don\'t have the faintest idea, get your checklist from your college secretary. After that, write down the subjects you need. You need to be fast because slots disappear with just a blink of an eye.\n\n\t\t<b>Be resourceful.</b> Computer shops tend to be full during pre-enlistment period so you might want to secure a seat before everyone else or bring your own laptop and ask if you can plug it in. Be sure the internet speed is fast, since you are racing a couple of students for majors, and a couple hundred for general education courses.\n\n\t\t<b>Be early.</b> The early bird gets the worm. The same goes for SAIS. If you wait until afternoon to open your SAIS account, you might end up seeing that you cannot take a seasonal class due to lack of slots. If pre-enlistment starts at 9, be sure to have your browser open by 8:30.\n\n\t\t<b>Think fast.</b> If there\'s a subject with no slots left, keep refreshing the browser or think of an alternative subject that has slots. It is a race against time.\n\n\t\tAfter the pre-enlistment and registration <b>NEVER EVER</b> forget to claim your <b>FORM 5</b> or else your subjects would be <b>DROPPED</b>.</string>
+    <string name="tq2">List of GE Courses</string>
+    <string name="tqa2"><b>ARTS AND HUMANITIES (AH) DOMAIN</b>\n\nARTS 1 - Critical Perspective in the Arts\n\nCOMM 10 - Critical Perspective in Communication\n\nPHILARTS 1 - Philippine Arts and Culture\n\nWIKA 1 - Wika, Kultura, at Lipunan\n\n\n<b>SOCIAL SCIENCES AND PHILOSOPHY (SSP) DOMAIN</b>\n\nETHICS 1 - Ethics and Moral Reasoning in Everyday Life\n\nHIST1 / KAS1 - Philippine History/Kasaysayan ng Pilipinas\n\nSTS 1 - Science, Technology, and Society\n\nSAS 1 - Self and Society\n\n\n<b>MATHEMATICS, SCIENCE, AND TECHNOLOGY (MST) DOMAIN</b>\n\nSTS 1 - Science, Technology, and Society\n\nMATH 10 - Mathematics, Culture, and Society\n\nSCIENCE 10 - Probing the Physical World\n\nSCIENCE 11 - Living Systems: Concepts and Dynamics</string>
+    <string name="tq3">Shifting Courses</string>
+
+    <string name="tq4">Financial Aid: SFA and SLB</string>
+
+    <string name="tq5">How to Save Money</string>
+
+    <string name="tq6">How to Survive Hell Week</string>
+
+    <string name="tq7">How to Handle an Exam</string>
+
+    <string name="tq8">Turn Around a Failing Subject</string>
+
+    <string name="tq9">Joining an Organization</string>
+
+    <string name="tq10">UPLB FebFair</string>
+
+    <string name="tq11">Bakasyon Syndrome</string>
 </resources>
