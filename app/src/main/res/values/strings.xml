@@ -4,6 +4,9 @@
     <string name="brought">Brought to you by</string>
     <string name="history">History of UPLB</string>
     <string name="calendar">UPLB Calendar</string>
+    <string name="calendar2">UPLB Academic Calendar</string>
+    <string name="calendar2_intro">\t\tAs an Iskolar ng Bayan, it is inadequate to be contended in acquiring knowledge by fixating yourself on a chair and restricting yourself within the four corners of a classroom. Being a UP student has more to offer than that! Live a meaningful college life and be involved in the activities of our university. Excited? Well here is a sneak peek of what\'s to come this coming academic year:</string>
+    <string name="calendar_dl">Note: You can also download it <a href="http://uplb.edu.ph/wp-content/uploads/2019/03/uplb-academic-calendar-2019-2020-2.pdf">HERE</a></string>
     <string name="map">Campus Map</string>
     <string name="jargons">Campus Jargons</string>
     <string name="faq">FAQ</string>
