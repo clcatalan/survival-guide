@@ -25,7 +25,6 @@
             android:text="@string/map_intro"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/text"
-            android:textColorLink="@color/text"
             android:gravity="start"/>
 
         <TextView

@@ -21,37 +21,31 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="15dp"
             android:text="@string/calendar2_intro"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/text"
             android:gravity="start"/>
 
         <ImageView
+            android:id="@+id/calendar1"
+            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/uplb_academic_calendar1"
-            android:scaleType="fitXY"/>
+            android:scaleType="centerInside"/>
 
         <ImageView
+            android:id="@+id/calendar2"
+            android:clickable="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="@drawable/uplb_academic_calendar2"
-            android:scaleType="fitXY"/>
+            android:scaleType="centerInside"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/calendar_dl"
-            android:textColorLink="@color/text"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/text"
-            android:gravity="start"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
             android:text="@string/brought"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
