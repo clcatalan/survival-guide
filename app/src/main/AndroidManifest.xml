@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Tips"></activity>
+        <activity android:name=".Tips"/>
         <activity android:name=".FAQ" />
         <activity android:name=".CampusJargons" />
-        <activity android:name=".CampusMap" />
+        <activity android:name=".CampusMap" android:configChanges="orientation"/>
         <activity android:name=".Calendar" />
         <activity android:name=".History" />
         <activity android:name=".MainActivity">

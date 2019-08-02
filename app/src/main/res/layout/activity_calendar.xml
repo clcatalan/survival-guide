@@ -21,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
             android:text="@string/calendar2_intro"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/text"
@@ -29,12 +30,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/uplb_academic_calendar1" />
+            android:src="@drawable/uplb_academic_calendar1"
+            android:scaleType="fitXY"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/uplb_academic_calendar2" />
+            android:src="@drawable/uplb_academic_calendar2"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:layout_width="match_parent"

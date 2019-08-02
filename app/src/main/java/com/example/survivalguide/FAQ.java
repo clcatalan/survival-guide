@@ -3,10 +3,7 @@ package com.example.survivalguide;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
-
-import org.w3c.dom.Text;
 
 public class FAQ extends AppCompatActivity {
 
