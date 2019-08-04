@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
+            android:textSize="16sp"
             android:text="@string/faq_intro"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/text"
@@ -35,6 +36,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q1" />
 
         <TextView
@@ -44,6 +46,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans1"/>
 
         <TextView
@@ -54,6 +57,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q2" />
 
         <TextView
@@ -63,6 +67,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans2"/>
 
         <TextView
@@ -73,6 +78,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q3" />
 
         <TextView
@@ -82,6 +88,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans3"/>
 
         <TextView
@@ -92,6 +99,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q4" />
 
         <TextView
@@ -101,6 +109,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans4"/>
 
         <TextView
@@ -111,6 +120,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q5" />
 
         <TextView
@@ -120,6 +130,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans5"/>
 
         <TextView
@@ -130,6 +141,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q6" />
 
         <TextView
@@ -139,6 +151,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans6"/>
 
         <TextView
@@ -149,6 +162,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q7" />
 
         <TextView
@@ -158,6 +172,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans7"/>
 
         <TextView
@@ -168,6 +183,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q8" />
 
         <TextView
@@ -177,6 +193,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans8"/>
 
         <TextView
@@ -187,6 +204,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q9" />
 
         <TextView
@@ -196,6 +214,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans9"/>
 
         <TextView
@@ -206,6 +225,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q10" />
 
         <TextView
@@ -215,6 +235,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans10"/>
 
         <TextView
@@ -225,6 +246,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q11" />
 
         <TextView
@@ -234,6 +256,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans11"/>
 
         <TextView
@@ -244,6 +267,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q12" />
 
         <TextView
@@ -253,6 +277,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans12"/>
 
         <TextView
@@ -263,6 +288,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q13" />
 
         <TextView
@@ -282,6 +308,7 @@
             android:textColor="@color/gold"
             android:clickable="true"
             android:onClick="onClick"
+            android:textSize="16sp"
             android:text="@string/q14" />
 
         <TextView
@@ -291,6 +318,7 @@
             android:layout_marginBottom="15dp"
             android:textColor="@color/text"
             android:visibility="gone"
+            android:textSize="16sp"
             android:text="@string/ans14"/>
 
         <TextView

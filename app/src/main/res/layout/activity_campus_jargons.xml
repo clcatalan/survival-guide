@@ -30,11 +30,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/admin_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/admin_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -43,11 +45,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/acads_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/acads_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -56,11 +60,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/ansci_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/ansci_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -69,11 +75,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/audi_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/audi_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -82,11 +90,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/barbarian_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/barbarian_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -95,11 +105,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/biosci_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/biosci_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -108,11 +120,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/bloc_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/bloc_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -121,11 +135,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/bluebook_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/bluebook_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -134,11 +150,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/brod_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/brod_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -147,11 +165,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/carillon_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/carillon_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -160,11 +180,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/cem_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/cem_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -173,11 +195,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/csb_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/csb_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -186,11 +210,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/coop_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/coop_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -199,11 +225,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/copeland_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/copeland_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -212,11 +240,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/cpark_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/cpark_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -225,11 +255,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/cs_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/cs_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -238,11 +270,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/engineering_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/engineering_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -251,11 +285,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/faculty_village_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/faculty_village_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -264,11 +300,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/fertility_tree_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/fertility_tree_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -277,11 +315,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/freedom_park_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/freedom_park_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -290,11 +330,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/forestry_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/forestry_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -303,11 +345,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/form5_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/form5_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -316,11 +360,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/fratman_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/fratman_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -329,11 +375,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/ge_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/ge_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -342,11 +390,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/gc_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/gc_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -355,11 +405,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/grandstand_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/grandstand_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -368,11 +420,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/grove_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/grove_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -381,11 +435,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/hum_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/hum_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -394,11 +450,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/hr_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/hr_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -407,11 +465,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/infirmary_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/infirmary_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -420,11 +480,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/killer_crossover_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/killer_crossover_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -433,11 +495,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/kwek_tower_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/kwek_tower_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -446,11 +510,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/mainlib_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/mainlib_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -459,11 +525,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/mens_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/mens_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -472,11 +540,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/proven_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/proven_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -485,11 +555,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/raymundo_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/raymundo_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -498,11 +570,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/womens_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/womens_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -511,11 +585,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/us_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/us_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -524,11 +600,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/uno_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/uno_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -537,11 +615,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/tres_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/tres_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -550,11 +630,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/kwatro_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/kwatro_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
@@ -563,11 +645,13 @@
         <TableRow android:layout_marginBottom="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content">
             <TextView
                 android:text="@string/singko_label"
+                android:textSize="16sp"
                 android:textColor="@color/gold"
                 android:textStyle="bold" />
 
             <TextView
                 android:paddingLeft="5dp"
+                android:textSize="16sp"
                 android:text="@string/singko_def"
                 android:textColor="@color/text"
                 android:layout_weight="1"/>
