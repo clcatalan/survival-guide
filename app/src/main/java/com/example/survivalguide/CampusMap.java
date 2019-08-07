@@ -23,6 +23,8 @@ public class CampusMap extends AppCompatActivity {
                 else if (i == 90 || i == 270) {
                     setContentView(R.layout.activity_map_full);
                     ImageView imgView = findViewById(R.id.campus_map);
+                    Drawable bitmap = getResources().getDrawable(R.drawable.uplb_campus_map);
+                    imgView.setImageDrawable(bitmap);
 
                     PhotoViewAttacher imgAttacher = new PhotoViewAttacher(imgView);
                     imgAttacher.update();
