@@ -8,7 +8,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 29
         versionCode 10009
-        versionName "1.0"
+        versionName "FSG 2019"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
